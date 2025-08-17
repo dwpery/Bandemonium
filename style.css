@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
 
+/* Sets up fonts and background image  */
 body {
     font-family: 'Comic Sans MS', 'Comic Neue', sans-serif;
     background-image: url('media/background.png');
@@ -21,6 +22,7 @@ body {
     height: 37.7rem;
 }
 
+/* Aligns text within the footer to centre */
 .footerPadding {
     position: relative;
     width: 100%;
@@ -51,9 +53,12 @@ p {
     font-size: 1.75rem;
 }
 
+/* Hides mobile only element on Computers */
 .mobileBottom {
     display: none;
 }
+
+/* Adapts styling for Mobile Devices */
 
 @media (max-width: 768px) {
     body {
